@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__item {
+    font-family: 'Commissioner';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav__curs {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav__map-dubai {
+    font-family: 'Commissioner';
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+}
+
+.curs__btn-ru {
+    font-family: 'Commissioner';
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.curs__btn-dollar {
+    font-family: 'Commissioner';
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav__connection {
+    display: flex;
+    gap: 10px;
+}
