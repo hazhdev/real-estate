@@ -4,56 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/fonts.css">
-    <link rel="stylesheet" href="./style/home.css">
-    <script src="home.js"></script>
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/modile.css">
+    <link rel="stylesheet" href="style/home.css">
+    <script src="js/main.js"></script>
     <title>Главная</title>
-    <link rel="icon" href="./home.img/header/header.png">
+    <link rel="icon" href="img/header/header.png ">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__link"><a href="" class="nav__item">Продажа</a></li>
-                    <li class="nav__link"><a href="" class="nav__item">Аренда</a></li>
-                    <li class="nav__link"><a href="" class="nav__item">Новостройки</a></li>
-                    <li class="nav__link"><a href="" class="nav__item">Виллы</a></li>
-                    <li class="nav__link"><a href="" class="nav__item">Сервисы</a></li>
-                    <li class="nav__link"><a href="" class="nav__item">Компания</a></li>
-                </ul>
-                <a href="" class="nav__map-dubai">
-                    <img src="home.img/nav/nav__map.png" alt="" class="dubai__img">
-                    Дубай
-                </a>
-                <div class="nav__curs">
-                    <button class="curs__btn-ru">Ру
-                        <img src="home.img/header/arrow.png" alt="" class="curs__img">
-                    </button>
-                    <button class="curs__btn-dollar">$ Доллар
-                        <img src="home.img/header/arrow.png" alt="" class="curs__img">
-                    </button>
-                    <div class="nav__favorits">
-                        <a href="" class="favorites">
-                            <img src="home.img/nav/nav__favourites.png" alt="" class="fovorits__img">
-                        </a>
+                <div class="logo"></div>
+                <div class="navigation">
+                    <div class="navigation__spisk">
+                        <ul class="nav__list">
+                            <li class="nsv__link"><a href="" class="nav__item">Продажа</a></li>
+                            <li class="nsv__link"><a href="" class="nav__item">Аренда</a></li>
+                            <li class="nsv__link"><a href="" class="nav__item">Новостройки</a></li>
+                            <li class="nsv__link"><a href="" class="nav__item">Виллы</a></li>
+                            <li class="nsv__link"><a href="" class="nav__item">Сервисы</a></li>
+                            <li class="nsv__link"><a href="" class="nav__item">Компания</a></li>
+                        </ul>
                     </div>
-                    <div class="nav__connection">
-                        <a href="" class="connection__watsap">
-                            <img src="home.img/nav/nav__watsap.png" alt="" class="connection__img">
+                    <div class="nav__dubai">
+                        <img src="img/nav/nav__map.png" alt="">
+                        <p>Дубай</p>
+                    </div>
+                    <div class="nav__curs">
+                        <button class="curs__ru">
+                            <p>Ру</p>
+                            <img src="img/header/arrow.png" alt="">
+                        </button>
+                        <button class="curs__evro">
+                            <p>$.Доллар</p>
+                            <img src="img/header/arrow.png" alt="">
+                        </button>
+                    </div>
+                    <a href="" class="favorites">
+                        <img src="img/nav/nav__favourites.png" alt="">
+                    </a>
+                    <div class="contact">
+                        <a class="nav__watsap" href="">
+                            <img src="img/nav/nav__watsap.png" alt="">
                         </a>
-                        <a href="" class="connection__telegram">
-                            <img src="home.img/nav/nav__telegram.png" alt="" class="telegram__img">
+                        <a href="" class="nav__telegram">
+                            <img src="img/nav/nav__telegram.png" alt="">
                         </a>
-                        <a href="" class="connect__phone">
-                            <img src="home.img/nav/nav__phone.png" alt="" class="connect__phone">
+                        <a href="" class="nav__phone">
+                            <img src="img/nav/nav__phone.png" alt="">
                         </a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="main__filter">
+                <div class="filtr">
+                    <h1 class="filter__title">
+                        Продажа <br> и аренда <span> новостроек в Дубаи</span>
+                    </h1>
+                    <p class="filtr__text">
+                        Первопричиной снижения цен считается увеличение числа предложений на рынке недвижимости, что
+                        позволяет эмирату быть на третьем месте в списке городов мира.
+                    </p>
+                </div>
+                <div class="filtr__input">
+                    <input type="text" id="">
+                </div>
+            </section>
+        </div>
+    </main>
+
 </body>
 
 </html>

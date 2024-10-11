@@ -1,6 +1,19 @@
 .nav {
     display: flex;
-    justify-content: space-between;
+    gap: 34px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    background-color: #C4C4C4;
+    width: 150px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    gap: 70px;
     align-items: center;
 }
 
@@ -11,47 +24,83 @@
 
 .nav__item {
     font-family: 'Commissioner';
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 500;
+}
+
+.nav__dubai {
+    display: flex;
+    gap: 5px;
+}
+
+.nav__dubai p {
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .nav__curs {
     display: flex;
-    gap: 50px;
-    align-items: center;
+    gap: 30px;
 }
 
-.nav__map-dubai {
+.curs__ru, .curs__evro {
+    display: flex;
+    gap: 10px;
+    align-items: center;
     font-family: 'Commissioner';
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 500;
+}
+
+.contact {
     display: flex;
     gap: 10px;
 }
 
-.curs__btn-ru {
-    font-family: 'Commissioner';
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
-    background-color: #fff;
-    display: flex;
-    gap: 5px;
-    align-items: center;
+.header__sale {
+    background-image: url(/img/header/header.png);
+    background-size: cover;
+    height: 100%;
 }
 
-.curs__btn-dollar {
-    font-family: 'Commissioner';
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
-    background-color: #fff;
-    display: flex;
-    gap: 5px;
-    align-items: center;
+/* main */
+
+.main {
+    background-image: url(/img/header/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    position: relative;
+    top: 300px;
+    height: 100%;
+    width: 100%;
 }
 
-.nav__connection {
+.filtr {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    position: relative;
+    top: -270px;
+}
+
+.filter__title {
+    font-family: "Neutral Face";
+    font-weight: 500;
+    font-size: 100px;
+    width: 550px;
+}
+
+.filter__title span{
+    color: #ffffff;
+}
+
+.filtr__text {
+    width: 430px;
+    font-family: 'Commissioner';
+    font-size: 16px;
+    font-weight: 500;
+    color: #595959;
+    position: relative;
+    top: 10px;
 }
